@@ -1,0 +1,13 @@
+include tox.ini
+include tests/*.py
+recursive-include tests *.py *.robot *.rst
+include tests/resources/all/norobotfiles/someotherfile
+recursive-include atests *.py *.robot *.rst
+include requirements.txt
+include sphinxdocs/conf.py
+include sphinxdocs/index.rst
+graft src/crl/doc/resource
+include CHANGES.rst
+include README.rst
+include .coveragerc
+include .pylintrc
