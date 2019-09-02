@@ -1,0 +1,12 @@
+# .readthedocs.yml
+
+version: 2
+
+python:
+    version: 3.6
+    install:
+          path: .
+    system_packages: true
+
+sphinx:
+    configuration: sphinxdocs/conf.py
